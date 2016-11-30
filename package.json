@@ -1,7 +1,7 @@
 {
-  "name": "onboarding",
+  "name": "appbase-onboarding",
   "version": "0.0.1",
-  "description": "onboarding",
+  "description": "appbase-onboarding",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,9 +10,9 @@
     "start": "concurrently \"npm run webpack-server\" \"gulp watch\"",
     "build": "set NODE_ENV=production&& webpack -p && gulp",
     "build:lib": "npm run build && babel src --out-dir lib",
-    "build:umd": "webpack --config webpack.config.umd.js src/index.js umd/onboarding.js"
+    "build:umd": "webpack --config webpack.config.umd.js src/index.js umd/appbase-onboarding.js"
   },
-  "author": "Deepak Grover",
+  "author": "Deepak Grover <deepakgrover333@gmail.com>",
   "dependencies": {
     "babel-preset-stage-0": "^6.5.0",
     "jquery": "^3.1.1",

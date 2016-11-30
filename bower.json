@@ -1,6 +1,6 @@
 {
-	"name": "onboarding",
-	"description": "Onboarding",
+	"name": "appbase-onboarding",
+	"description": "appbase-onboarding",
 	"main": "main.js",
 	"authors": [
 		"Deepak Grover"
