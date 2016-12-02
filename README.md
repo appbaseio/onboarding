@@ -1,7 +1,7 @@
 # Onboarding
 
 ```javascript
-const steps = ['Welcome', 'Setup', 'Test', 'Deploy'];
+const steps = ['Welcome', 'Setup'];
 
 ReactDOM.render(
 	<Onboarding

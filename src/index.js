@@ -69,17 +69,16 @@ export default class Onboarding extends Component {
 				<div className="left">
 					<div className="img-container">
 						<img src={this.props.brandImage} width="120" />
-
-						<ul className="step-widget">
-							<h3>
-								Getting Started
-								<span className="pull-right">{this.state.currentStep + 1} of {this.totalSteps}</span>
-							</h3>
-							{this.renderStepNames()}
-						</ul>
-
-						<a onClick={() => this.skipAll()} className="skip-link">Skip Tutorial<i className="fa fa-arrow-right"></i></a>
 					</div>
+					<ul className="step-widget">
+						<h3>
+							Getting Started
+							<span className="pull-right">{this.state.currentStep + 1} of {this.totalSteps}</span>
+						</h3>
+						{this.renderStepNames()}
+					</ul>
+
+					<a onClick={() => this.skipAll()} className="skip-link">Skip Tutorial<i className="fa fa-arrow-right"></i></a>
 				</div>
 
 				<div className="onboarding-navbar">
