@@ -1,6 +1,6 @@
 {
   "name": "appbase-onboarding",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "appbase-onboarding",
   "main": "lib/index.js",
   "scripts": {
